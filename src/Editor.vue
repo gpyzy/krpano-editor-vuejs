@@ -130,6 +130,14 @@
           </div>
         </div>
         <div class="field">
+          <label class="label has-text-white">热点提示文字</label>
+          <div class="control">
+            <div class="select is-info is-small">
+              <input type="text" />
+            </div>
+          </div>
+        </div>
+        <div class="field">
           <label class="label has-text-white">热点类型</label>
           <div class="control">
             <div class="select is-info is-small">

@@ -9,13 +9,12 @@ Vue.config.productionTip = false
 
 /* eslint-disable no-new */
 let vm = new Vue({
-  el: '#editor',
-  template: '<Editor ref="editor"/>',
-  components: {Editor}
+    el: '#editor',
+    template: '<Editor ref="editor"/>',
+    components: { Editor }
 })
 
-window.onready = function () {
-  vm.$refs.editor.onready()
+
+window.onload = function() {
+    vm.$refs.editor.onready()
 }
-
-
